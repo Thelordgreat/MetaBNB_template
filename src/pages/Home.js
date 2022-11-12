@@ -1,10 +1,12 @@
 import React from 'react'
-import Header from "../Components/Header";
+import Hero from '../Components/Hero';
+import Platforms from '../Components/Platforms';
 
 const Home = () => {
   return (
     <>
-      <Header />
+      <Hero />
+      <Platforms/>
     </>
   )
 }

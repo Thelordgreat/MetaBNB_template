@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import logo from "../images/Nav-logo.png";
-//import { NavLink } from "react-router-dom"
+import ConnectModal from './ConnectModal';
+
 
 const Navbar = () => {
+    const [openModal, setOpenModal] = useState(false)
+
     return (
         <nav className='w-full h-[80px]'>
             <div className='flex items-center h-full justify-between w-11/12 mx-auto'>
@@ -19,10 +22,16 @@ const Navbar = () => {
                     style={{
                         background: "linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%)",
                     }}
+                    onClick={() => setOpenModal(true)}
                     className='px-4 py-2 border-2 text-white text-sm rounded-md'>
                     Connect wallet
                 </button>
             </div>
+
+            <ConnectModal
+                open={openModal}
+                onClose={() => setOpenModal(false)}
+            />
         </nav >
     )
 }

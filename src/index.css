@@ -12,7 +12,31 @@
 }
 
 body {
+  max-width: 1650px;
+  margin: auto;
   font-family: "Red Rose", cursive;
   text-decoration: none;
   background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
+  z-index: -1;
+}
+
+.modal_container{
+  width: 30rem;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding-bottom: 1rem;
+  border-radius: 16px;
+  background: #FFFFFF;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  z-index: 10;
+}
+
+.overlay{
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100%;
+  position: fixed;
 }
