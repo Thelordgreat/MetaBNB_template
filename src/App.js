@@ -2,9 +2,9 @@ import React from "react";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import Home from "./pages/Home";
-import AllNFT from "./pages/AllNFT"
 import "./index.css";
 import { BrowserRouter as Router, Routes , Route} from "react-router-dom";
+import PlaceToStay from "./pages/PlaceToStay";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home/>}/>
-          <Route path="/nfts" element={<AllNFT/>}/>
+          <Route path="/place-to-stay" element={<PlaceToStay/>}/>
         </Routes>
       </Router>
       <Footer />

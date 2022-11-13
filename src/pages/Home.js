@@ -1,5 +1,7 @@
 import React from 'react'
+import Discover from '../Components/Discover';
 import Hero from '../Components/Hero';
+import NFTs from '../Components/NFTs';
 import Platforms from '../Components/Platforms';
 
 const Home = () => {
@@ -7,6 +9,8 @@ const Home = () => {
     <>
       <Hero />
       <Platforms/>
+      <NFTs/>
+      <Discover/>
     </>
   )
 }
