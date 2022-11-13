@@ -7,7 +7,7 @@ import image6 from "../images/image 6.png"
 const Hero = () => {
   return (
     <section>
-      <div className='flex w-11/12 mx-auto my-16'>
+      <div className='flex w-11/12 mx-auto my-16 hero'>
         {/*=== Left ====*/}
         <div className='flex-1 mt-10 ml-7'>
           <div className="w-[93%]">
@@ -24,11 +24,11 @@ const Hero = () => {
         {/*==== Right ====*/}
         <div className='flex-1 mt-8'>
           <div className='flex justify-center'>
-            <div className='flex flex-col gap-2 translate-y-12 mr-2'>
+            <div className='flex flex-col gap-2 translate-y-12 mr-2 z-[-1]'>
               <img src={image4} alt="" />
               <img src={image6} alt="" />
             </div>
-            <div className='flex flex-col gap-2 -translate-y-12'>
+            <div className='flex flex-col gap-2 -translate-y-12 z-[-1]'>
               <img src={image3} alt="" />
               <img src={image5} alt="" />
             </div>
