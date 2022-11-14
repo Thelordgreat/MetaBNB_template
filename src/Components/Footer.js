@@ -4,18 +4,18 @@ import c from "../images/Vector.png";
 
 const Footer = () => {
   return (
-    <footer className='w-full h-[35vh] max-h-[250px] bg-[#1D1D1E] text-white py-8'>
-      <div className='flex w-10/12 mx-auto justify-between pt-8 leading-8'>
+    <footer className='w-full h-fit lg:h-[35vh] lg:max-h-[250px] bg-[#1D1D1E] text-white py-8'>
+      <div className='grid gap-3 md:flex md:flex-row w-10/12 md:w-11/12 lg:w-10/12 mx-auto justify-between pt-8 leading-8'>
         <div>
-          <img src={logo} alt="" className='scale-75' />
+          <img src={logo} alt="" className='w-[80%]' />
 
-          <div className='flex items-center mt-12 ml-4 justify-around text-sm w-[60%]'>
+          <div className='flex items-center mt-8 justify-between md:mt-12 md:ml-4 lg:ml-0 text-sm w-[60%]'>
             <i class="fa-brands fa-facebook-f cursor-pointer"></i>
             <i class="fa-brands fa-instagram cursor-pointer"></i>
             <i class="fa-brands fa-twitter cursor-pointer"></i>
           </div>
 
-          <div className='flex items-center mt-6 ml-5 gap-2 text-sm w-[60%] opacity-[.7]'>
+          <div className='flex items-center mt-6  gap-2 text-sm w-[60%] opacity-[.7]'>
             <img src={c} alt="" />
             <span>2022 Metabnb</span>
           </div>

@@ -5,8 +5,8 @@ import stars from "../images/stars.png";
 const NFTs = () => {
     return (
         <>
-            <h2 className='text-center my-12 text-[2.5rem] text-[#000000] font-semibold'>Inspiration for your next adventure</h2>
-            <div className='grid grid-cols-4 w-10/12 mx-auto gap-4 mt-8'>
+            <h2 className='text-center my-12 text-[2rem] lg:text-[2.5rem] text-[#000000] font-semibold'>Inspiration for your next adventure</h2>
+            <div className='grid md:grid-cols-2 lg:grid-cols-4 w-10/12 mx-auto gap-4 mt-8'>
                 {dataHome.map((data) => {
                     const { image } = data;
 

@@ -1,13 +1,13 @@
 import { data } from '../data'
 import React from 'react';
 import stars from "../images/stars.png";
-import FilterLinks from '../Components/FilterLinks';
+//import FilterLinks from '../Components/FilterLinks';
 
 const PlaceToStay = () => {
   return (
     <>
-      <FilterLinks />
-      <div className='grid grid-cols-4 w-10/12 mx-auto gap-4 mt-8 mb-8'>
+      {/* <FilterLinks /> */}
+      <div className='grid md:grid-cols-2 lg:grid-cols-4 w-10/12 mx-auto gap-4 mt-8 mb-8'>
         {data.map((data) => {
           const { image } = data;
 
