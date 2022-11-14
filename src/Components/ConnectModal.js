@@ -20,7 +20,7 @@ const ConnectModal = ({ open, onClose }) => {
           <span>Choose your preferred wallet:</span>
 
           {/*==== list ====*/}
-          <div className='flex items-center border-2 rounded-lg mb-4 mt-2 p-1 justify-between hover:bg-[#CFD8DC] cursor-pointer'>
+          <div className='flex items-center border-2 rounded-lg mb-4 mt-2 p-1 justify-between hover:bg-[#F8F9FA] cursor-pointer'>
             <div className='flex items-center gap-2'>
               <img src={metalogo} alt="" className='scale-75' />
               <span>Metamask</span>
@@ -29,7 +29,7 @@ const ConnectModal = ({ open, onClose }) => {
           </div>
 
           {/*==== list ====*/}
-          <div className='flex items-center border-2 rounded-lg p-1 justify-between hover:bg-[#CFD8DC] cursor-pointer'>
+          <div className='flex items-center border-2 rounded-lg p-1 justify-between hover:bg-[#F8F9FA] cursor-pointer'>
             <div className='flex items-center gap-2'>
               <img src={WalletConnect} alt="" className='scale-75' />
               <span>WalletConnect</span>

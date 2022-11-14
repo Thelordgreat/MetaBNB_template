@@ -12,7 +12,7 @@ const Hero = () => {
         <div className='flex-1 mb-12 md:ml-7'>
           <div className="p-3 md:p-0 md:w-[93%]">
             <h2 className='text-4xl lg:text-5xl text-[#434343] font-medium mb-8 leading-snug'>Rent a <span className='text-[#a02279]'>Place</span> away from <span className='text-[#a02279]'>Home</span> in the <span className='text-[#a02279]'>Metaverse</span></h2>
-            <p className='text-xl text-[#434343]'>we provide you access to luxury and affordable houses in the metaverse, get a chance to turn your <br /> imagination to reality at your comfort zone</p>
+            <p className='text-[1.1rem] md:text-xl text-[#434343]'>we provide you access to luxury and affordable houses in the metaverse, get a chance to turn your imagination to reality at your comfort zone</p>
 
             <div className='border-2 md:w-[96%] mt-12 h-[50px] flex rounded-lg overflow-hidden'>
               <input type="text" className='h-full w-10/12 outline-none pl-4' placeholder='Search for location' />
