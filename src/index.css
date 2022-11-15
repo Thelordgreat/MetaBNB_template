@@ -45,7 +45,10 @@ body {
   bottom: 0;
 }
 
-.active{
-  display: block;
+@media (max-width: 650px) {
+  .modal_container{
+    width: 95%;
+  }
 }
+
 
