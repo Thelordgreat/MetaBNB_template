@@ -7,11 +7,11 @@ const NFTs = () => {
         <>
             <h2 className='text-center my-12 text-[1.5rem] lg:text-[2.5rem] text-[#000000] font-semibold'>Inspiration for your next adventure</h2>
             <div className='grid md:grid-cols-2 lg:grid-cols-4 w-10/12 mx-auto gap-4 mt-8'>
-                {dataHome.map((data) => {
+                {dataHome.map((data , index ) => {
                     const { image } = data;
 
                     return (
-                        <div className='box p-3 border-2 rounded-xl'>
+                        <div className='box p-3 border-2 rounded-xl' key={index}>
                             <img src={image} alt="" className='w-full hover:scale-[1.03] transition-all' />
                             <div className='flex items-center justify-between my-2 text-sm'>
                                 <span>Desert king</span>

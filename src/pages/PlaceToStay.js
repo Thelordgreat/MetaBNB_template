@@ -8,11 +8,11 @@ const PlaceToStay = () => {
     <>
       <FilterLinks />
       <div className='grid md:grid-cols-2 lg:grid-cols-4 w-10/12 mx-auto gap-4 mt-8 mb-8'>
-        {data.map((data) => {
+        {data.map((data, index) => {
           const { image } = data;
 
           return (
-            <>
+            <div key={index}>
               <div className='box p-3 border-2 rounded-xl'>
                 <img src={image} alt="" className='w-full  hover:scale-[1.03] transition-all' />
 
@@ -30,7 +30,7 @@ const PlaceToStay = () => {
                   <img src={stars} alt="" />
                 </div>
               </div>
-            </>
+            </div>
           )
 
         })}

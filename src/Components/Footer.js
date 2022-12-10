@@ -10,9 +10,9 @@ const Footer = () => {
           <img src={logo} alt="" className='w-[80%]' />
 
           <div className='flex items-center mt-8 justify-between md:mt-12 md:ml-4 lg:ml-0 text-sm w-[60%]'>
-            <i class="fa-brands fa-facebook-f cursor-pointer"></i>
-            <i class="fa-brands fa-instagram cursor-pointer"></i>
-            <i class="fa-brands fa-twitter cursor-pointer"></i>
+            <i className="fa-brands fa-facebook-f cursor-pointer"></i>
+            <i className="fa-brands fa-instagram cursor-pointer"></i>
+            <i className="fa-brands fa-twitter cursor-pointer"></i>
           </div>
 
           <div className='flex items-center mt-6  gap-2 text-sm w-[60%] opacity-[.7]'>

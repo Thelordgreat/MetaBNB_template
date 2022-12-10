@@ -38,7 +38,7 @@ const Navbar = () => {
                         <img src={logo} alt="" className='w-[9rem] lg:w-[10rem]' />
                     </Link>
 
-                    <ul className='hidden md:flex items-center md:gap-8 lg:gap-16 md:block'>
+                    <ul className='hidden md:flex items-center md:gap-8 lg:gap-16'>
                         <Link to="/">
                             <li className='cursor-pointer'>Home</li>
                         </Link>
@@ -60,7 +60,7 @@ const Navbar = () => {
 
                     <div className='md:hidden cursor-pointer'>
                         {menuOpen ? (
-                            <i class="fa-regular fa-x" onClick={toggleMenu}></i>
+                            <i className="fa-regular fa-x" onClick={toggleMenu}></i>
                         ) : (
                             <i className='fas fa-bars' onClick={toggleMenu}></i>
                         )}
